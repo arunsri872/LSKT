@@ -1,0 +1,764 @@
+html {zoom: 90%;}
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1399px;
+  height: 2398px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 845px;
+  height: 71px;
+  margin: 15px 0 0 176px;
+  z-index: 9;
+}
+.lskt-logo {
+  flex-shrink: 0;
+  position: relative;
+  width: 69px;
+  height: 71px;
+  background: url(/static/landing-images/9eaaf291-6250-4f33-8e3d-99828c183ee5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 38px;
+  position: relative;
+  width: 641px;
+  height: 71px;
+  padding: 0 0 14px 0;
+  z-index: 9;
+}
+.temple {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 34px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.charity {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 34px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.services {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 34px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.school {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 34px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.about {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 34px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 22px;
+  position: relative;
+  width: 692px;
+  margin: 60px 0 0 176px;
+  z-index: 1;
+}
+.london-sivan-kovil {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 77px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 76.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.official-website {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 621px;
+  height: 102px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+  z-index: 3;
+}
+.contact-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 28px;
+  position: relative;
+  width: 247px;
+  height: 54px;
+  margin: 70px 0 0 176px;
+  padding: 5px 26px 0 26px;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+  z-index: 4;
+  border-radius: 100px;
+}
+.contact-section {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 29px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.calendar-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 247px;
+  height: 54px;
+  margin: 25px 0 0 176px;
+  padding: 5px 29px 0 29px;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+  z-index: 6;
+  border-radius: 100px;
+}
+.calendar-section {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 29px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.flex-row-1 {
+  position: relative;
+  width: 1050px;
+  height: 741px;
+  margin: 166px 0 0 173px;
+  z-index: 45;
+}
+.announcements-festivals {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 1045px;
+  height: 741px;
+  top: 0;
+  left: 5px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 100px;
+  text-align: center;
+  z-index: 24;
+}
+.key-dates {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 1047px;
+  height: 34px;
+  top: 107px;
+  left: 0;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 25;
+}
+.rectangle {
+  position: absolute;
+  width: 1045px;
+  height: 558px;
+  top: 183px;
+  left: 5px;
+  background: #d9d9d9;
+  z-index: 45;
+}
+.flex-row-2 {
+  position: relative;
+  width: 1047px;
+  height: 524px;
+  margin: 62px 0 0 167px;
+  z-index: 44;
+}
+.location {
+  position: absolute;
+  width: 513px;
+  height: 339px;
+  bottom: 185px;
+  left: 50%;
+  background: url(/static/landing-images/2265d6a9085b753d3c1539167eef03ef2ac25459.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-102.05%, 0);
+  z-index: 26;
+}
+.location-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 20px;
+  position: absolute;
+  width: 513px;
+  height: 136px;
+  bottom: 383px;
+  left: 50%;
+  transform: translate(2.05%, 0);
+  z-index: 33;
+}
+.how-to-get-here {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 29px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 34;
+}
+.located-in-lewisham {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 513px;
+  min-width: 0;
+  height: 87px;
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  z-index: 35;
+}
+.bus-vector {
+  position: absolute;
+  width: 39px;
+  height: 49px;
+  bottom: 296px;
+  left: 50%;
+  background: url(/static/landing-images/74934f88-992c-467c-b801-d001bf4a610a.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(26.92%, 0);
+  z-index: 43;
+}
+.train-vector {
+  position: absolute;
+  width: 39px;
+  height: 49px;
+  bottom: 295.84px;
+  left: 50%;
+  background: url(/static/landing-images/74916441-4861-4c10-bf2d-ba3ec7579b34.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(711.54%, 0);
+  z-index: 44;
+}
+.bus-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 246px;
+  height: 261px;
+  bottom: 13px;
+  left: calc(50% - -10.5px);
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  z-index: 36;
+}
+.train-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 246px;
+  height: 232px;
+  bottom: 42px;
+  left: calc(50% - -277.5px);
+  color: #000000;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  z-index: 37;
+}
+.opening-times {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 13px;
+  position: absolute;
+  width: 513px;
+  height: 106px;
+  bottom: 69.5px;
+  left: 50%;
+  transform: translate(-102.05%, 0);
+  z-index: 38;
+}
+.weekend-opening {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 247px;
+  height: 106px;
+  padding: 9px 0 17px 0;
+  background: #190d49;
+  z-index: 39;
+}
+.friday-saturday-sunday {
+  flex-shrink: 0;
+  position: relative;
+  width: 219px;
+  height: 92px;
+  font-family: Maname, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  z-index: 40;
+}
+.friday-saturday-sunday-3 {
+  position: relative;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+.opening-hours {
+  position: relative;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+.weekday-opening {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 247px;
+  height: 106px;
+  padding: 4px 0 15px 0;
+  background: #190d49;
+  z-index: 41;
+}
+.weekday-hours {
+  flex-shrink: 0;
+  position: relative;
+  width: 219px;
+  font-family: Maname, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  z-index: 42;
+}
+.weekday-days {
+  position: relative;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: center;
+}
+.weekday-times {
+  position: relative;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+.closing-time {
+  position: relative;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+.pooja-time-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 14px;
+  position: absolute;
+  width: 513px;
+  height: 61px;
+  bottom: 0;
+  left: 50%;
+  background: transparent;
+  border: none;
+  transform: translate(-102.05%, 0);
+  z-index: 27;
+}
+.pooja-info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  min-width: 0;
+  height: 61px;
+  padding: 7px 15px 15px 14px;
+  background: #190d49;
+  z-index: 28;
+}
+.pooja-info-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 460px;
+  height: 45px;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 29;
+  overflow: hidden;
+}
+.car-park-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 14px;
+  position: relative;
+  width: 513px;
+  margin: 9px 0 0 167px;
+  background: transparent;
+  border: none;
+  z-index: 30;
+}
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  min-width: 0;
+  height: 61px;
+  padding: 7px 15px 15px 14px;
+  background: #190d49;
+  z-index: 31;
+}
+.car-parking {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 460px;
+  height: 47px;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  z-index: 32;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 1399px;
+  height: 247px;
+  margin: 38px 0 0 -9px;
+  padding: 0 176px 0 176px;
+  background: #190d49;
+  z-index: 15;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 26px;
+  position: relative;
+  width: 280px;
+  z-index: 16;
+}
+.lewisham-sivan-temple {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 280px;
+  min-width: 0;
+  height: 181px;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  z-index: 17;
+}
+.london-sivan-kovil-4 {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 29px;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 149px;
+  position: relative;
+  width: 296px;
+  z-index: 19;
+}
+.frame-5 {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 15px;
+  position: relative;
+  width: 271px;
+  z-index: 20;
+}
+.vector {
+  flex-shrink: 0;
+  position: relative;
+  width: 49px;
+  height: 49px;
+  background: url(/static/landing-images/88c8c8d8-c86f-4fc9-a34d-341bcfd1c469.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 21;
+}
+.london-sivan-kovil-trust {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+  width: 207px;
+  height: 58px;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: right;
+  z-index: 22;
+}
+.s-arunsharma {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: absolute;
+  width: 296px;
+  height: 29px;
+  right: 0;
+  bottom: -178px;
+  color: #ffffff;
+  font-family: Maname, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 23;
+}
+.hero-bg {
+  position: absolute;
+  height: 690px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: url(/static/landing-images/adc11cc01ca18f934b28689087e742bbae629677.png)
+    no-repeat center;
+  background-size: cover;
+}
+
+/* hover annimation */
+.vector:hover {opacity:0.6;}
+.contact-us-button:hover {opacity:0.8;}
+.temple-calendar-button:hover {opacity:0.8;}
+.announcements-button:hover {opacity:0.8;}
+
+
+.lskt-logo, .temple, .charity, .services, .school, .about, .vector {
+  cursor: pointer;
+}
+

@@ -1,0 +1,578 @@
+html {zoom: 90%;}
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1258px;
+    height: 2345px;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .teachers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 1048px;
+    height: 100px;
+    margin: 742px 0 0 105px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 1048px;
+    margin: 35px 0 0 105px;
+    z-index: 16;
+  }
+  .frame-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 26px;
+    position: relative;
+    width: 247px;
+    z-index: 17;
+  }
+  .frame-2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 153px;
+    position: relative;
+    width: 247px;
+    z-index: 18;
+  }
+  .frame-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 247px;
+    z-index: 19;
+  }
+  .image {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 223px;
+    background: url(/static/school-images/dd1d4ebdf99ff17cdbc8cf27ab203254beab457c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 20;
+  }
+  .mrs-kala-yogarajah {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 247px;
+    min-width: 0;
+    height: 73px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: center;
+    z-index: 21;
+  }
+  .frame-4 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 26px;
+    position: relative;
+    width: 247px;
+    z-index: 22;
+  }
+  .frame-5 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 153px;
+    position: relative;
+    width: 247px;
+    z-index: 23;
+  }
+  .frame-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 247px;
+    z-index: 24;
+  }
+  .whatsapp-image {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 223px;
+    background: url(/static/school-images/ace121446e4981b801cc175c4b32052007dff26c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 25;
+  }
+  .vocal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 247px;
+    min-width: 0;
+    height: 74px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: center;
+    z-index: 26;
+  }
+  .contact-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 1048px;
+    height: 102px;
+    margin: 801px 0 0 105px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+    z-index: 4;
+  }
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 1258px;
+    height: 247px;
+    margin: 21px 0 0 0;
+    padding: 0 176px 0 176px;
+    background: #190d49;
+    z-index: 6;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 26px;
+    position: relative;
+    width: 280px;
+    z-index: 7;
+  }
+  .temple-address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 280px;
+    min-width: 0;
+    height: 181px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    z-index: 8;
+  }
+  .copyright {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 29px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 149px;
+    position: relative;
+    width: 296px;
+    z-index: 10;
+  }
+  .frame-7 {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 15px;
+    position: relative;
+    width: 271px;
+    z-index: 11;
+  }
+  .vector {
+    flex-shrink: 0;
+    position: relative;
+    width: 49px;
+    height: 49px;
+    background: url(/static/school-images/df973b88-9470-47fb-874f-1374d7f0cef0.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .london-sivan-kovil-trust {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 207px;
+    height: 58px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: right;
+    z-index: 13;
+  }
+  .s-arunsharma {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 296px;
+    height: 29px;
+    right: 0;
+    bottom: -178px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .rectangle {
+    position: absolute;
+    width: 1258px;
+    height: 729px;
+    top: 0;
+    left: 0;
+    background: #78b0a9;
+  }
+  .frame-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 23px;
+    position: relative;
+    width: 647px;
+    margin: 118px 0 0 105px;
+    z-index: 1;
+  }
+  .teaching-carnatic-music {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 647px;
+    min-width: 0;
+    height: 200px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: left;
+    z-index: 2;
+  }
+  .south-indian-classical-music {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 647px;
+    min-width: 0;
+    height: 170px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    z-index: 3;
+  }
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 38px;
+    position: absolute;
+    width: 595px;
+    height: 68px;
+    top: 12px;
+    left: 50%;
+    padding: 0 0 14px 0;
+    transform: translate(-49.92%, 0);
+    z-index: 34;
+  }
+  .temple {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 35;
+  }
+  .charity {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 36;
+  }
+  .services {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 37;
+  }
+  .school {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .about {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 39;
+  }
+  .lskt-logo {
+    position: absolute;
+    width: 69px;
+    height: 71px;
+    top: 14px;
+    left: 105px;
+    background: url(/static/school-images/bef375ec-1b60-48e5-99de-3c435e21e9f0.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 15;
+  }
+  .image-removebg-preview {
+    position: absolute;
+    width: 487px;
+    height: 610px;
+    top: 90px;
+    left: 762px;
+    background: url(/static/school-images/083a199a-66f0-469f-9a11-81a94a31b02c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 33;
+  }
+  .frame-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 9px;
+    position: absolute;
+    width: 1258px;
+    height: 753px;
+    top: 1208px;
+    left: 0;
+    padding: 23px 20px 23px 20px;
+    background: #78b0a9;
+    z-index: 27;
+  }
+  .sylabus {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 100px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 28;
+  }
+  .vocal-carnatic-music {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 1048px;
+    height: 306px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+    z-index: 29;
+  }
+  .health-safety-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: absolute;
+    width: 246px;
+    height: 54px;
+    top: 676px;
+    left: 506px;
+    padding: 1px 29px 5px 29px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 30;
+    border-radius: 100px;
+  }
+  .curriculum-info {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 31;
+    right: 4px;
+  }
+  .image-a {
+    position: absolute;
+    width: 160px;
+    height: 214px;
+    top: 1657px;
+    left: 549px;
+    background: url(/static/school-images/aeab65bc-b9af-45fc-b225-d924827174cf.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 32;
+  }
+    /* hover annimation */
+    .vector:hover {opacity:0.6;}
+    .lskt-logo, .temple, .charity, .services, .school, .about, .vector {
+    cursor: pointer;
+  }

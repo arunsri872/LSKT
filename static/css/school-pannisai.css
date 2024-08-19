@@ -1,0 +1,515 @@
+html {zoom: 90%;}
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1258px;
+    height: 2345px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 1258px;
+    height: 729px;
+    margin: 0 0 0 0;
+    background: #7a3939;
+  }
+  .flex-column-c {
+    position: absolute;
+    height: 499px;
+    top: 12px;
+    right: 331px;
+    left: 105px;
+    z-index: 16;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 23px;
+    position: relative;
+    width: 647px;
+    margin: 106px 0 0 0;
+    z-index: 1;
+  }
+  .pannisai-tamil-devotional-songs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 647px;
+    min-width: 0;
+    height: 200px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: left;
+    z-index: 2;
+  }
+  .oldest-type-music {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 647px;
+    min-width: 0;
+    height: 170px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    z-index: 3;
+  }
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 38px;
+    position: absolute;
+    width: 595px;
+    height: 68px;
+    top: 0;
+    left: 50%;
+    padding: 0 0 14px 0;
+    transform: translate(-30.92%, 0);
+    z-index: 16;
+  }
+  .temple {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+  }
+  .charity {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .services {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .school {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .about {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+  }
+  .lskt-logo {
+    position: absolute;
+    width: 69px;
+    height: 71px;
+    top: 2px;
+    left: 0;
+    background: url(/static/school-images/ce9a32c7-c84a-4ee3-adf6-5b663da64c28.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 15;
+  }
+  .image {
+    position: absolute;
+    width: 303px;
+    height: 593px;
+    top: 136px;
+    left: 839px;
+    background: url(/static/school-images/8dff1a59-3129-4964-927d-9018cbd51a98.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 33;
+  }
+  .teacher {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 1048px;
+    height: 100px;
+    margin: 13px 0 0 105px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .frame-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 1048px;
+    margin: 35px 0 0 105px;
+    z-index: 22;
+  }
+  .frame-2 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 26px;
+    position: relative;
+    width: 247px;
+    z-index: 23;
+  }
+  .frame-3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 153px;
+    position: relative;
+    width: 247px;
+    z-index: 24;
+  }
+  .frame-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 247px;
+    z-index: 25;
+  }
+  .image-5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 247px;
+    height: 206px;
+    background: url(/static/school-images/94bf2f3b-bf82-44c8-b076-bc8be1b52eea.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 26;
+  }
+  .sami-dhandapani-kovil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 247px;
+    min-width: 0;
+    height: 73px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: center;
+    z-index: 27;
+  }
+  .teachers-contact-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 1048px;
+    height: 102px;
+    margin: 819px 0 0 105px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+    z-index: 4;
+  }
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 1258px;
+    height: 247px;
+    margin: 21px 0 0 0;
+    padding: 0 176px 0 176px;
+    background: #190d49;
+    z-index: 6;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 26px;
+    position: relative;
+    width: 280px;
+    z-index: 7;
+  }
+  .lewisham-sivan-temple {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 280px;
+    min-width: 0;
+    height: 181px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    z-index: 8;
+  }
+  .london-sivan-kovil {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 29px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 149px;
+    position: relative;
+    width: 296px;
+    z-index: 10;
+  }
+  .frame-6 {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 15px;
+    position: relative;
+    width: 271px;
+    z-index: 11;
+  }
+  .vector {
+    flex-shrink: 0;
+    position: relative;
+    width: 49px;
+    height: 49px;
+    background: url(/static/school-images/80b056b2-1f9b-4e54-a070-56f1d2b61b35.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .london-sivan-kovil-trust {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 207px;
+    height: 58px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: right;
+    z-index: 13;
+  }
+  .s-arunsharma {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 296px;
+    height: 29px;
+    right: 0;
+    bottom: -178px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .frame-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 9px;
+    position: absolute;
+    width: 1258px;
+    height: 753px;
+    top: 1208px;
+    left: 0;
+    padding: 23px 20px 23px 20px;
+    background: #7a3939;
+    z-index: 28;
+  }
+  .pannisai-at-lskt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 1048px;
+    height: 100px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 29;
+  }
+  .tamil-hymns-learning {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 1048px;
+    height: 408px;
+    color: #ffffff;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+    z-index: 30;
+  }
+  .curriculum-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 246px;
+    height: 54px;
+    top: 1842px;
+    left: 506px;
+    padding: 1px 29px 5px 29px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 31;
+    border-radius: 100px;
+  }
+  .contact-us {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 34px;
+    color: #000000;
+    font-family: Maname, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 32;
+    left : 30px;
+  }
+    /* hover annimation */
+    .vector:hover {opacity:0.6;}
+    .health-safety-button:hover {opacity:0.8;}
+    .lskt-logo, .temple, .charity, .services, .school, .about, .vector {
+    cursor: pointer;
+  }
